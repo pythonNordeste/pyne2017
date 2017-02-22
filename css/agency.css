@@ -250,6 +250,11 @@ header {
 header .conference-logo {
   padding-top: 150px;
 }
+header .conference-date {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #444;
+}
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
