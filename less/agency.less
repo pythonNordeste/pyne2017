@@ -85,6 +85,8 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
+        padding-bottom: 0;
+        padding-top: 0;
         .script-font;
         &:hover,
         &:focus,
@@ -143,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
+            display: none;
             font-size: 2em;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -160,6 +163,9 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
     .navbar-custom.affix {
+      .navbar-brand {
+        display: block;
+      }
       .nav {
           li {
               a {
@@ -181,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @gray-darker;
         padding: 10px 0;
         .navbar-brand {
-            font-size: 1.5em;
+            display: block;
         }
     }
 }
