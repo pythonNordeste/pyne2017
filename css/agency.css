@@ -300,6 +300,9 @@ section h3.section-subheading {
   max-width: 400px;
   margin: 0 auto;
 }
+#portfolio .portfolio-item .portfolio-link img {
+  width: 100%;
+}
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
   position: absolute;
