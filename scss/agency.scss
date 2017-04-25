@@ -199,8 +199,7 @@ header {
         .intro-text {
             padding-top: 300px;
             padding-bottom: 200px;
-            .intro-lead-in {
-                @include serif-font;
+            .intro-lead-in { @include serif-font;
                 font-style: italic;
                 font-size: 40px;
                 line-height: 40px;
@@ -736,3 +735,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: $theme-primary;
 }
+
