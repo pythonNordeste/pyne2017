@@ -543,6 +543,7 @@ section h3.section-subheading {
   margin-top: 0;
 }
 aside.clients img {
+  height: 100px;
   margin: 50px auto;
 }
 section#contact {
@@ -759,4 +760,24 @@ body {
   padding: 20px 0 0;
   border-top: 1px solid #ccc;
   margin-bottom: 20px;
+}
+.hotels-list {
+  float: left;
+  width: 50%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.hotels-list > li {
+  width: 100%;
+  padding: 10px;
+}
+.hotels-list > li > p {
+  margin: 0;
+  font-size: 12px;
+}
+.hotels-list > li > p:first-child {
+  font-size: 14px;
+  font-weight: 700;
 }
