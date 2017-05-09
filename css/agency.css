@@ -542,7 +542,7 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
-aside.clients img {
+.clients img {
   height: 100px;
   margin: 50px auto;
 }
@@ -760,6 +760,13 @@ body {
   padding: 20px 0 0;
   border-top: 1px solid #ccc;
   margin-bottom: 20px;
+}
+#sponsors .section-heading {
+  margin-bottom: 40px;
+}
+.sponsor-category-name {
+  margin-bottom: 0;
+  text-align: center;
 }
 .hotels-list {
   float: left;
